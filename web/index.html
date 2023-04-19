@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>kode.web.id</title>
+   <meta name="title" content="Web & Mobile Development, PT Komunitas Ide Sejahtera">
+   <meta name="keywords" content="Website, Web Development, Mobile Development">
+   <meta name="description" content="KODE.web.id a Web and Android Apps, Digital Branding and Marketing | 18 Office Park 22nd Floor Suite EFG, Jl. TB Simatupang Kav. 18, Jakarta Selatan | +62 21 2270 2300 | +62 81 777 9879">
+   <meta name="author" content="Created By Kode.web.id">
+   <!-- bootstrap css -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <!-- AOS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/logo.ico" type="image/ico" />
+   <!-- Scrollbar Custom CSS -->
+   <!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   <script>
+      function getStylesheet() {
+      var currentTime = new Date().getHours();
+         if (5 <= currentTime && currentTime < 17) {
+            document.write("<link rel='stylesheet' href='css/light.css' type='text/css'>");
+         } else {
+            document.write("<link rel='stylesheet' href='css/dark.css' type='text/css'>");
+         }
+      }
+      getStylesheet();
+   </script>
+   <noscript>
+      <link href="css/main.css" rel="stylesheet">
+   </noscript>
+
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <div class="wrapper">
+      <!-- end loader -->
+      <div id="content">
+         <!-- header -->
+         <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+               <div class="container">
+                  <a class="navbar-brand" href="#">
+                  </a>
+                  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-auto-close="true" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon text-white"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                     <ul class="navbar-nav ms-auto fs-6">
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#works">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="icon-mode">
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <!-- end header inner -->
+         <!-- end header -->
+         <!-- banner -->
+         <div id="myCarousel" class="carousel banner_main" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h5>WELCOME TO</h5>
+                                 <h1>KODE.WEB.ID</h1>
+                                 <p>Web and Mobile Apps Development | Data Analysis | Digital Branding</p>
+                                 <a class="read_more" href="#contact">Start a Project</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img src="images/banner.webp" alt="Image Banner"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end banner -->
+         <!-- about -->
+         <div id="about" class="about">
+            <div class="container align-content-center about-2" data-aos="fade-up" data-aos-duration="2000">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="images/banner-2.webp" alt="Image Beranda" /></figure>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2>About <span class="blu">Kode</span></h2>
+                        <p>a Software Developer and Digital Agency
+                           company engaged in Digital Branding and
+                           Digital Marketing and Media Setting that has
+                           experienced in the world of business and social
+                           media management. We are committed to
+                           building the success of our clients based on the
+                           KPI (Key Perfomance Indicator) that our clients
+                           want to address. We develop web and android
+                           apps, and do some digital branding works.</p>
+                     </div>
+                     <div class="flex-about">
+                        <div class="flex-abouts">
+                           <div class="judul-abouts">
+                              <h2>
+                                 Client
+                              </h2>
+                              <h4>
+                                 12
+                              </h4>
+                           </div>
+                        </div>
+                        <div class="flex-abouts">
+                           <div class="judul-abouts">
+                              <h2>
+                                 Project Launched
+                              </h2>
+                              <h4>
+                                 50
+                              </h4>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end about -->
+         <!-- choose  section -->
+         <div class="choose" id="services">
+            <div class="con">
+               <div class="container">
+                  <div class="titlepage-ch">
+                     <h2>WHAT WE DO</h2>
+                     <h6 class="text-center">We’ve got everything you need to <br> launch and grow your business</h6>
+                  </div>
+               </div>
+            </div>
+            <div class="choose_bg">
+               <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="row">
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
+                              <ul class="easy">
+                                 <li><a href="#" class="web-dev-btn" aria-current="true" onclick="return toggle('pg0')">Web & Mobile Development</a></li>
+                                 <li><a href="#" onclick="return toggle('pg1')">Social Media</a></li>
+                                 <li><a href="#" onclick="return toggle('pg2')">Data Analysis</a></li>
+                                 <li><a href="#" onclick="return toggle('pg3')">Design</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 padding_left0">
+                              <div class="choose_box">
+                                 <div id="pg">
+                                    <div id="pg0" class="web-dev" aria-current="true">
+                                       <i><img src="images/web-mobile-dev.webp" alt="#" style="width: 15%;" /></i>
+                                       <h3>Web & Mobile Development</h3>
+                                       <p>Web development and mobile application development are provided by our company
+                                          according to the latest trends of technological progress. We apply up-to-date
+                                          methodologies and best practices to ensure a high quality of the delivered
+                                          products and services. The personnel of our company is highly qualified in the
+                                          field of software development and internet marketing. We have developed
+                                          hundreds of projects for different customers from different industries. We
+                                          will be happy to develop for you an original high-quality product that will
+                                          suit your budget, schedule, and business needs.</p>
+                                    </div>
+                                    <div id="pg1" class="pg">
+                                       <i><img src="images/social-media.webp" alt="#" style="width: 15%;" /></i>
+                                       <h3>Social Media</h3>
+                                       <p>Social media platforms are a powerful marketing tool to reach out to potential
+                                          customers and build relationships. The average person spends over two hours on
+                                          social media every day. That’s a lot of time! Social media can help you
+                                          connect with people who might be interested in your product or service. We
+                                          provide social media management services so that your business can grow
+                                          bigger, and you can get a bigger income.</p>
+                                    </div>
+                                    <div id="pg2" class="pg">
+                                       <i><img src="images/data-analis.webp" alt="#" style="width: 15%;" /></i>
+                                       <h3>Data Analysis</h3>
+                                       <p>We customize IT solutions for data analysis that enable you to get answers to
+                                          your business questions. we Use QR Codes or Barcodes as a tool we provide a
+                                          system for data collection and analysis. so that your business problems can be
+                                          solved and your business can continue to grow up</p>
+                                    </div>
+                                    <div id="pg3" class="pg">
+                                       <i><img src="images/design.webp" alt="#" style="width: 15%;" /></i>
+                                       <h3>Design</h3>
+                                       <p>Design is an important aspect of any business, but it is especially important
+                                          for businesses that rely heavily on visuals to communicate their message. Good
+                                          design can make a big difference in how customers perceive a company, and it
+                                          can be a key factor in driving sales and loyalty. We provide various services
+                                          in the field of design, such as website or mobile user interface design</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end choose  section -->
+
+         <!-- work -->
+         <div id="works" class="work">
+            <div class="works">
+               <div class="judul-work">
+                  <h2 class="text-center">
+                     Our Portofolio
+                  </h2>
+               </div>
+            </div>
+            <div class="container">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="row gx-5">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Siwaslu Pemilu 2019<br>(Android)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/siwaslu-2019.webp" class="card-img-top" alt="Siwaslu Pemilu 2019 - Android">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Siwaslu Pemilu 2020<br>(Android)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/siwaslu-2020.webp" class="card-img-top" alt="Siwaslu Pemilu 2020 (Andorid)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Bawaslu Form A Laporan Hasil Pelaporan - (Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/form-a-online.webp" class="card-img-top" alt="Bawaslu (Sistem Informasi Pelaporan Online PILKADA 2018)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row gx-5">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Peta Form A LHP Bawaslu<br>(Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/bawaslu_peta-1.webp" class="card-img-top" alt="Peta Form A LHP Bawaslu">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Sistem Asuransi Kredit Online<br>(Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/bigsys.webp" class="card-img-top" alt="Sistem Asuransi Kredit Online">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">UNIDO - GEIPP Indonesia<br>(Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/geippindonesia.webp" class="card-img-top" alt="UNIDO - Website GEIPP Indonesia">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row gx-5">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Kementerian Kelautan & Perikanan - Sistem Notifikasi</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/laut-perikanan.webp" class="card-img-top" alt="Kementerian Kelautan & Perikanan - Sistem Notifikasi">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Koperasi Online<br>(Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/koperasi.webp" class="card-img-top" alt="Koperasi Online - Website">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Rajaprint<br>Web E-commerce</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/rajaprint.webp" class="card-img-top" alt="Rajaprint Web E-commerce">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row gx-5">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Kemenkumham - survei kepuasan masyarakat 2019, 2020, 2021</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/kemenkumham.webp" class="card-img-top" alt="Kemenkumham - survei kepuasan masyarakat 2019, 2020, 2021">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Siwaslu 2022<br>(Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/siwaslu-2022.webp" class="card-img-top" alt="Siwaslu 2022 (Website)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Bawaslu - Sekolah Kader Pengawas Partisipatif (Website)</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/skpp.webp" class="card-img-top" alt="Bawaslu Sekolah Kader Pengawas Partisipatif">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row gx-5 justify-content-center">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">OBEC PNG<br>General Election 2021</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/obec.webp" class="card-img-top" alt="OBEC PNG General Election 2021">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">USAID IUWASH PLUS<br>Peb Pelatihan Perpamsi</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/perpamsi.webp" class="card-img-top" alt="USAID IUWASH PLUS - Peb Pelatihan Perpamsi">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Resource Efficient and Cleaner Production (RECP) Indonesia<br>Website</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/recpindonesia.webp" class="card-img-top" alt="Resource Efficient and Cleaner Production (RECP) Indonesia">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row gx-5 justify-content-center">
+                           <div class="col-md-4">
+                              <div class="p-3">
+                                 <div class="card">
+                                    <div class="card-body">
+                                       <h4 class="card-title">OBEC PNG<br>General Election 2021</h4>
+                                    </div>
+                                    <div class="img-hover-zoom">
+                                       <img src="images/Portofolio/agendaasia.webp" class="card-img-top" alt="OBEC PNG General Election 2021">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end work -->
+
+         <!-- Container Clients -->
+         <section id="clients">
+            <div class="client">
+               <div class="judul-client">
+                  <h2 class="text-center">
+                     Clients
+                  </h2>
+               </div>
+            </div>
+            <div id="carouselExampleInterval" class="carousel slide align-content-center" data-bs-ride="carousel">
+               <div class="carousel-inner logo-client">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                     <div class="flex-container">
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/BAWASLU.webp" alt="Logo Bawaslu" width="300">
+                        </div>
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/Dirjen-AHU.webp" alt="Logo Dirjen-AHU" width="300">
+                        </div>
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/rajaprint.webp" alt="Logo Raja Print" width="300">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                     <div class="flex-container">
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/kab_tangerang.webp" alt="Logo Kab. Tangerang" width="300">
+                        </div>
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/Perpamsi.webp" alt="Logo Perpamsi" width="300">
+                        </div>
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/widodo.webp" alt="Logo Widodo" width="300">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                     <div class="flex-container">
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/unido.webp" alt="Logo UNIDO" width="300">
+                           <h6></h6>
+                        </div>
+                        <div class="flex-items">
+                           <img src="images/Logo-Client/iuwash.webp" alt="Logo Iuwash" width="300">
+                        </div>
+                        <!-- <div class="flex-items">
+                           <img src="images/Logo-Client/..." alt="Logo Raja Print" width="300">
+                        </div> -->
+                     </div>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+
+         <!-- Container Contact -->
+
+         <!-- request -->
+         <div id="contact" class="request">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Contact <span class="white">Us</span></h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6">
+
+                     <!-- Form Contact -->
+
+                     <form id="request" class="main_form">
+                        <div class="row">
+                           <div class="col-md-12 ">
+                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Email" type="type" name="Email">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                           </div>
+                           <div class="col-md-12">
+                              <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                           </div>
+                           <div class="col-md-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+
+                     <!-- End Form COntact -->
+
+                  </div>
+                  <div class="col-md-6">
+                     <div id="map" class="justify-content-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7931.457895805208!2d106.832!3d-6.299304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa29985100f9b696e!2s18%20Office%20Park!5e0!3m2!1sid!2sid!4v1669177666909!5m2!1sid!2sid" height="425px" width="500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                           Lokasi
+                        </iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end request -->
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-6">
+                              <div class="address">
+                                 <h3>Address </h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>
+                                    <p>18 Office Park, 22nd Floor Suite EFG <br> Jl. TB Simatupang Kav. 18 Pasar Minggu,
+                                       Jakarta Selatan, 12520</p>
+                                 </li>
+                              </ul>
+                              <div class="address">
+                                 <h3>Email Us at</h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>
+                                    <p>info@kode.web.id</p>
+                                 </li>
+                              </ul>
+                              <div class="address">
+                                 <h3>Call Us at</h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>
+                                    <p>Phone: (+62) 21 7478 6358</p>
+                                 </li>
+                                 <li>
+                                    <p>Mobile: (+62) 812 9407 8305</p>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-md-4 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="#">Home</a> </li>
+                                    <li><a href="#about">About </a> </li>
+                                    <li><a href="#services">Services</a> </li>
+                                    <li><a href="#works">Works</a> </li>
+                                    <li><a href="#clients">Client</a> </li>
+                                    <li><a href="#contact">Contact </a> </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-5 col-sm-6">
+                              <div class="address">
+                                 <h3>Follow Us</h3>
+                              </div>
+                              <ul class="social_icon">
+                                 <li>
+                                    <a href="https://www.instagram.com/kode.web.id" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/instagram.webp" alt="Logo-Instagram">
+                                          </div>
+                                          <div class="p-2 align-middle">
+                                             <span class="text-white ">Instagram</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://twitter.com/kodewebid" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/twitter.webp" alt="Logo-Twitter">
+                                          </div>
+                                          <div class="p-2 align-middle">
+                                             <span class="text-white align-middle">Twitter</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://www.linkedin.com/company/pt-komunitas-ide-sejahtera-kode-web-id" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/linkedin.webp" alt="Logo-Linkedin" style="width: 24px;">
+                                          </div>
+                                          <div class="p-2 align-middle">
+                                             <span class="text-white">Linkedin</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://www.youtube.com/c/KODEwebid" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/youTube.webp" alt="Logo-Youtube">
+                                          </div>
+                                          <div class="p-2 align-middle">
+                                             <span class="text-white justify-content-start">Youtube</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://www.facebook.com/kode.web.id" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/facebook.webp" alt="Logo-Facebook" style="width: 18px;">
+                                          </div>
+                                          <div class="p-2 align-middle">
+                                             <span class="text-white">Facebook</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://sikap.lkpp.go.id/pelaku-usaha/cari/?q=ZqSzSiyIXrmGsC95zuIZkw%3D%3D" target="_blank">
+                                       <div class="d-flex flex-row mb-2">
+                                          <div class="p-2">
+                                             <img src="images/Logo-Social-Media/sikap.webp" alt="Logo-SIKap" style="width: 32px;">
+                                          </div>
+                                          <div class="p-2 align-middle ">
+                                             <span class="text-white justify-content-start">SIKap</span>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+
+                           <!-- Form NewsLetter -->
+
+                           <div class="col-md-7 col-sm-6">
+                              <div class="address">
+                                 <h3>Live Chat</h3>
+                              </div>
+                              <form action="/tambah" method="post" class="bottom_form">
+                                 <a class="sub_btn" target="_blank" href="https://api.whatsapp.com/send?phone=6281224202033&text=Hallo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp pe-2" viewBox="0 0 16 16">
+                                       <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                     </svg>
+                                     Whatsapp
+                                 </a>
+                              </form>
+
+                              <!-- End Form Newsletter -->
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p>© Copyright <span class="kode">KODE.WEB.ID</span> 2022</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+      </div>
+      <!-- Logo Switch -->
+      <!-- AOS -->
+      <script>
+         AOS.init();
+      </script>
+      <div class="overlay"></div>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <!-- <script src="js/popper.min.js"></script> -->
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function() {
+               $('#sidebar').removeClass('active');
+               $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+               $('#sidebar').addClass('active');
+               $('.overlay').addClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+            $(".fancybox").fancybox({
+               openEffect: "none",
+               closeEffect: "none"
+            });
+
+            $(".zoom").hover(function() {
+
+               $(this).addClass('transition');
+            }, function() {
+
+               $(this).removeClass('transition');
+            });
+         });
+      </script>
+      <!-- Sidebar Services -->
+      <script type="text/javascript">
+         function toggle(IDS) {
+            var sel = document.getElementById('pg').getElementsByTagName('div');
+            for (var i = 0; i < sel.length; i++) {
+               if (sel[i].id != IDS) {
+                  sel[i].style.display = 'none';
+               }
+            }
+            var status = document.getElementById(IDS).style.display;
+            if (status == 'block') {
+               document.getElementById(IDS).style.display = 'none';
+            } else {
+               document.getElementById(IDS).style.display = 'block';
+            }
+
+            return false;
+         }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <!-- <script src="conn_db.js"></script> -->
+</body>
+
+</html>
